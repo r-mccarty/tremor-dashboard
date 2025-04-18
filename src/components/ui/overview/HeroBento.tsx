@@ -94,7 +94,7 @@ export default function Example() {
                             <blockquote className="text-base font-medium text-gray-50 sm:text-lg/8">
                                 <p className="relative bg-gradient-to-br from-blue-100 to-white bg-clip-text font-medium leading-7 tracking-tighter text-transparent before:absolute before:right-full before:top-0">
                                     The AI-powered customer support has completely transformed our
-                                    service capabilities. We've seen a 70% reduction in response
+                                    service capabilities. We&apos;ve seen a 70% reduction in response
                                     times and a significant increase in customer satisfaction
                                     scores.
                                 </p>
