@@ -121,7 +121,7 @@ export function ChartCard({
     <div className={cx("transition")}>
       <div className="flex items-center justify-between gap-x-2">
         <div className="flex items-center gap-x-2">
-          <dt className="font-bold text-gray-900 sm:text-sm dark:text-gray-50">
+          <dt className="font-bold text-gray-900 sm:text-sm dark:text-gray-50 font-heading">
             {title}
           </dt>
           {selectedPeriod !== "no-comparison" && (

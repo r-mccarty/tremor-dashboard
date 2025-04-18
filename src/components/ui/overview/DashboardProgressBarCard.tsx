@@ -29,7 +29,7 @@ export function ProgressBarCard({
       <div className="flex flex-col justify-between">
         <div>
           <div className="flex items-center gap-2">
-            <dt className="font-bold text-gray-900 sm:text-sm dark:text-gray-50">
+            <dt className="font-bold text-gray-900 sm:text-sm dark:text-gray-50 font-heading">
               {title}
             </dt>
             <Badge variant="neutral">{change}</Badge>

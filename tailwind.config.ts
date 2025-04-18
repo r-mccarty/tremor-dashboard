@@ -5,7 +5,8 @@ const config: Config = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     fontFamily: {
-      sans: ['var(--font-colfax)'],
+      sans: ['var(--font-colfax)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      heading: ['var(--font-barlow)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
     },
     extend: {
       keyframes: {

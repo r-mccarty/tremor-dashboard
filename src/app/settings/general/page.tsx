@@ -26,7 +26,7 @@ export default function General() {
               <div>
                 <h2
                   id="personal-information"
-                  className="scroll-mt-10 font-semibold text-gray-900 dark:text-gray-50"
+                  className="scroll-mt-10 font-semibold text-gray-900 dark:text-gray-50 font-heading"
                 >
                   Personal information
                 </h2>
@@ -132,7 +132,7 @@ export default function General() {
               <div>
                 <h2
                   id="notification-settings"
-                  className="scroll-mt-10 font-semibold text-gray-900 dark:text-gray-50"
+                  className="scroll-mt-10 font-semibold text-gray-900 dark:text-gray-50 font-heading"
                 >
                   Notification settings
                 </h2>
@@ -142,7 +142,7 @@ export default function General() {
               </div>
               <div className="md:col-span-2">
                 <fieldset>
-                  <legend className="text-sm font-medium text-gray-900 dark:text-gray-50">
+                  <legend className="text-sm font-medium text-gray-900 dark:text-gray-50 font-heading">
                     Team
                   </legend>
                   <p className="mt-1 text-sm leading-6 text-gray-500">
@@ -169,7 +169,7 @@ export default function General() {
                   </ul>
                 </fieldset>
                 <fieldset className="mt-6">
-                  <legend className="text-sm font-medium text-gray-900 dark:text-gray-50">
+                  <legend className="text-sm font-medium text-gray-900 dark:text-gray-50 font-heading">
                     Usage
                   </legend>
                   <p className="mt-1 text-sm leading-6 text-gray-500">
@@ -222,7 +222,7 @@ export default function General() {
               <div>
                 <h2
                   id="danger-zone"
-                  className="scroll-mt-10 font-semibold text-gray-900 dark:text-gray-50"
+                  className="scroll-mt-10 font-semibold text-gray-900 dark:text-gray-50 font-heading"
                 >
                   Danger zone
                 </h2>
@@ -245,7 +245,7 @@ export default function General() {
                 <Card className="p-4">
                   <div className="flex items-start justify-between gap-10">
                     <div>
-                      <h4 className="text-sm font-medium text-gray-900 dark:text-gray-50">
+                      <h4 className="text-sm font-medium text-gray-900 dark:text-gray-50 font-heading">
                         Leave workspace
                       </h4>
                       <p className="mt-2 text-sm leading-6 text-gray-500">
@@ -264,7 +264,7 @@ export default function General() {
                 <Card className="overflow-hidden p-0">
                   <div className="flex items-start justify-between gap-10 p-4">
                     <div>
-                      <h4 className="text-sm font-medium text-gray-400 dark:text-gray-600">
+                      <h4 className="text-sm font-medium text-gray-400 dark:text-gray-600 font-heading">
                         Delete workspace
                       </h4>
                       <p className="mt-2 text-sm leading-6 text-gray-400 dark:text-gray-600">

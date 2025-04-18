@@ -19,38 +19,38 @@ const data: {
   capacity?: string
   percentageValue?: number
 }[] = [
-  {
-    name: "Starter plan",
-    description: "Discounted plan for start-ups and growing companies",
-    value: "$90",
-  },
-  {
-    name: "Storage",
-    description: "Used 10.1 GB",
-    value: "$40",
-    capacity: "100 GB included",
-    percentageValue: 10.1,
-  },
-  {
-    name: "Bandwith",
-    description: "Used 2.9 GB",
-    value: "$10",
-    capacity: "5 GB included",
-    percentageValue: 58,
-  },
-  {
-    name: "Users",
-    description: "Used 9",
-    value: "$20",
-    capacity: "50 users included",
-    percentageValue: 18,
-  },
-  {
-    name: "Query super caching (EU-Central 1)",
-    description: "4 GB query cache, $120/mo",
-    value: "$120.00",
-  },
-]
+    {
+      name: "Starter plan",
+      description: "Discounted plan for start-ups and growing companies",
+      value: "$90",
+    },
+    {
+      name: "Storage",
+      description: "Used 10.1 GB",
+      value: "$40",
+      capacity: "100 GB included",
+      percentageValue: 10.1,
+    },
+    {
+      name: "Bandwith",
+      description: "Used 2.9 GB",
+      value: "$10",
+      capacity: "5 GB included",
+      percentageValue: 58,
+    },
+    {
+      name: "Users",
+      description: "Used 9",
+      value: "$20",
+      capacity: "50 users included",
+      percentageValue: 18,
+    },
+    {
+      name: "Query super caching (EU-Central 1)",
+      description: "4 GB query cache, $120/mo",
+      value: "$120.00",
+    },
+  ]
 
 export default function Billing() {
   const [isSpendMgmtEnabled, setIsSpendMgmtEnabled] = React.useState(true)
@@ -81,7 +81,7 @@ export default function Billing() {
             <div>
               <h2
                 id="billing-overview"
-                className="scroll-mt-10 font-semibold text-gray-900 dark:text-gray-50"
+                className="scroll-mt-10 font-semibold text-gray-900 dark:text-gray-50 font-heading"
               >
                 Billing
               </h2>
@@ -138,7 +138,7 @@ export default function Billing() {
               <div>
                 <h2
                   id="cost-spend-control"
-                  className="scroll-mt-10 font-semibold text-gray-900 dark:text-gray-50"
+                  className="scroll-mt-10 font-semibold text-gray-900 dark:text-gray-50 font-heading"
                 >
                   Cost spend control
                 </h2>
@@ -253,7 +253,7 @@ export default function Billing() {
               <div>
                 <h2
                   id="add-ons"
-                  className="scroll-mt-10 font-semibold text-gray-900 dark:text-gray-50"
+                  className="scroll-mt-10 font-semibold text-gray-900 dark:text-gray-50 font-heading"
                 >
                   Add-Ons
                 </h2>
@@ -265,7 +265,7 @@ export default function Billing() {
                 <Card className="overflow-hidden p-0">
                   <div className="px-4 pb-6 pt-4">
                     <span className="text-sm text-gray-500">$25/month</span>
-                    <h4 className="mt-4 text-sm font-semibold text-gray-900 dark:text-gray-50">
+                    <h4 className="mt-4 text-sm font-semibold text-gray-900 dark:text-gray-50 font-heading">
                       Advanced bot protection
                     </h4>
                     <p className="mt-2 max-w-xl text-sm leading-6 text-gray-500">
@@ -294,7 +294,7 @@ export default function Billing() {
                 <Card className="overflow-hidden p-0">
                   <div className="px-4 pb-6 pt-4">
                     <span className="text-sm text-gray-500">$50/month</span>
-                    <h4 className="mt-4 text-sm font-semibold text-gray-900 dark:text-gray-50">
+                    <h4 className="mt-4 text-sm font-semibold text-gray-900 dark:text-gray-50 font-heading">
                       Workspace insights
                     </h4>
                     <p className="mt-2 max-w-xl text-sm leading-6 text-gray-500">

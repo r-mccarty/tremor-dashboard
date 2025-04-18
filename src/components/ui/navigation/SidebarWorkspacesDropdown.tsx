@@ -89,7 +89,7 @@ export const WorkspacesDropdownDesktop = () => {
           }}
         >
           <DropdownMenuGroup>
-            <DropdownMenuLabel>
+            <DropdownMenuLabel className="font-heading">
               Workspaces ({workspaces.length})
             </DropdownMenuLabel>
             {workspaces.map((workspace) => (
@@ -105,7 +105,7 @@ export const WorkspacesDropdownDesktop = () => {
                     {workspace.initials}
                   </span>
                   <div>
-                    <p className="text-sm font-medium text-gray-900 dark:text-gray-50">
+                    <p className="text-sm font-medium text-gray-900 dark:text-gray-50 font-heading">
                       {workspace.name}
                     </p>
                     <p className="text-xs text-gray-700 dark:text-gray-400">
@@ -189,7 +189,7 @@ export const WorkspacesDropdownMobile = () => {
           }}
         >
           <DropdownMenuGroup>
-            <DropdownMenuLabel>
+            <DropdownMenuLabel className="font-heading">
               Workspaces ({workspaces.length})
             </DropdownMenuLabel>
             {workspaces.map((workspace) => (
@@ -205,7 +205,7 @@ export const WorkspacesDropdownMobile = () => {
                     {workspace.initials}
                   </span>
                   <div>
-                    <p className="text-sm font-medium text-gray-900 dark:text-gray-50">
+                    <p className="text-sm font-medium text-gray-900 dark:text-gray-50 font-heading">
                       {workspace.name}
                     </p>
                     <p className="text-xs text-gray-700 dark:text-gray-300">

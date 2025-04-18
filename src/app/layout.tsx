@@ -1,7 +1,7 @@
-import type { Metadata } from "next"
-import { ThemeProvider } from "next-themes"
-import localFont from "next/font/local"
-import "./globals.css"
+import type { Metadata } from "next";
+import { ThemeProvider } from "next-themes";
+import localFont from "next/font/local";
+import "./globals.css";
 import { siteConfig } from "./siteConfig"; // Assuming this file exists and is configured
 
 import { Sidebar } from "@/components/ui/navigation/Sidebar"; // Assuming this component exists
@@ -23,6 +23,28 @@ const colfax = localFont({
   ],
   display: "swap",
   variable: "--font-colfax", // Keep this if you plan to use the CSS variable elsewhere, otherwise optional
+})
+
+const barlow = localFont({
+  src: [
+    {
+      path: '../fonts/barlow-latin-400-normal-7fa387951673abf164b13dd1b45c70e3.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../fonts/barlow-latin-500-normal-50adbbfa3bfe480bf4246ff5bad7ad06.woff2',
+      weight: '500',
+      style: 'normal',
+    },
+    {
+      path: '../fonts/barlow-latin-700-normal-dd5b2912dbf896310865c1e9ac85ab41.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
+  display: "swap",
+  variable: "--font-barlow",
 })
 
 // Remember to replace placeholder values below
@@ -62,7 +84,7 @@ export default function RootLayout({
           If you prefer the variable approach, remove colfax.className here
           and set `font-family: var(--font-colfax)` in your globals.css */}
       <body
-        className={`${colfax.className} overflow-y-scroll scroll-auto antialiased selection:bg-indigo-100 selection:text-indigo-700 dark:bg-gray-950`}
+        className={`${colfax.className} ${barlow.variable} overflow-y-scroll scroll-auto antialiased selection:bg-indigo-100 selection:text-indigo-700 dark:bg-gray-950`}
         suppressHydrationWarning // Good practice with next-themes
       >
         <div className="mx-auto max-w-screen-2xl">
