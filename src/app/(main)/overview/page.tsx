@@ -3,6 +3,7 @@ import { CategoryBarCard } from "@/components/ui/overview/DashboardCategoryBarCa
 import { ChartCard } from "@/components/ui/overview/DashboardChartCard"
 import { Filterbar } from "@/components/ui/overview/DashboardFilterbar"
 import { ProgressBarCard } from "@/components/ui/overview/DashboardProgressBarCard"
+import HeroBento from "@/components/ui/overview/HeroBento"
 import HeroGlobe from "@/components/ui/overview/HeroGlobe"
 import { overviews } from "@/data/overview-data"
 import { OverviewData } from "@/data/schema"
@@ -155,13 +156,14 @@ export default function Overview() {
   return (
     <>
       <HeroGlobe />
+      <HeroBento />
 
       <section aria-labelledby="current-billing-cycle">
         <h1
           id="current-billing-cycle"
-          className="scroll-mt-10 text-lg font-semibold text-gray-900 sm:text-xl dark:text-gray-50 font-heading"
+          className="scroll-mt-10 text-lg tracking-normal font-semibold text-gray-900 sm:text-xl dark:text-gray-50 font-heading"
         >
-          Current billing cycle
+          CURRENT BILLING CYCLE
         </h1>
         <div className="mt-4 grid grid-cols-1 gap-14 sm:mt-8 sm:grid-cols-2 lg:mt-10 xl:grid-cols-3">
           <ProgressBarCard
