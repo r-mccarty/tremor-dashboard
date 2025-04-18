@@ -3,6 +3,7 @@
 ## Current Work Focus
 - **Memory Bank Maintenance**: Keeping the Memory Bank documentation up-to-date with recent changes
 - **Font System Enhancement**: Adding and configuring additional font options for the dashboard
+- **UI Enhancement**: Adding a hero section with a globe visualization to the overview page
 
 ## Recent Changes
 - Created Memory Bank directory and initial documentation files:
@@ -16,6 +17,11 @@
   - Added Feature Flat font family files to the project
   - Added font files: FeatureFlatCond-Regular, FeatureFlatCond-Medium, FeatureFlatHeadline, and FeatureFlatText-Bold
   - Prepared for potential integration with the existing font system
+- **UI Enhancement**:
+  - Added a hero section with a globe visualization to the overview page
+  - Installed the `cobe` library for the interactive globe component
+  - Created a new component at `src/components/ui/overview/HeroGlobe.tsx`
+  - Integrated the hero section above the "Current billing cycle" section
 
 ## Next Steps
 - Explore the dashboard components in more detail

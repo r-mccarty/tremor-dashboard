@@ -26,6 +26,7 @@
 ### Data Visualization
 - **Recharts 2.15.1**: React charting library for data visualization
 - **date-fns 3.6.0**: Date utility library
+- **cobe 0.6.3**: Interactive 3D globe visualization library
 
 ### Data Management
 - **@tanstack/react-table 8.21.2**: Table library for React

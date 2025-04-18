@@ -3,6 +3,7 @@ import { CategoryBarCard } from "@/components/ui/overview/DashboardCategoryBarCa
 import { ChartCard } from "@/components/ui/overview/DashboardChartCard"
 import { Filterbar } from "@/components/ui/overview/DashboardFilterbar"
 import { ProgressBarCard } from "@/components/ui/overview/DashboardProgressBarCard"
+import HeroGlobe from "@/components/ui/overview/HeroGlobe"
 import { overviews } from "@/data/overview-data"
 import { OverviewData } from "@/data/schema"
 import { cx } from "@/lib/utils"
@@ -153,6 +154,8 @@ export default function Overview() {
 
   return (
     <>
+      <HeroGlobe />
+
       <section aria-labelledby="current-billing-cycle">
         <h1
           id="current-billing-cycle"
