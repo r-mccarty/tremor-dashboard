@@ -3,8 +3,7 @@ import { CategoryBarCard } from "@/components/ui/overview/DashboardCategoryBarCa
 import { ChartCard } from "@/components/ui/overview/DashboardChartCard"
 import { Filterbar } from "@/components/ui/overview/DashboardFilterbar"
 import { ProgressBarCard } from "@/components/ui/overview/DashboardProgressBarCard"
-import HeroBento from "@/components/ui/overview/HeroBento"
-import HeroGlobe from "@/components/ui/overview/HeroGlobe"
+import FeatureBento from "@/components/ui/overview/FeatureBento"
 import { overviews } from "@/data/overview-data"
 import { OverviewData } from "@/data/schema"
 import { cx } from "@/lib/utils"
@@ -155,8 +154,9 @@ export default function Overview() {
 
   return (
     <>
-      <HeroGlobe />
-      <HeroBento />
+      {/*<HeroGlobe />
+      <HeroBento />*/}
+      <FeatureBento />
 
       <section aria-labelledby="current-billing-cycle">
         <h1
