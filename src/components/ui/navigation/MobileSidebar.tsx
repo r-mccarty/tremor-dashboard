@@ -16,12 +16,14 @@ import {
   RiListCheck,
   RiMenuLine,
   RiSettings5Line,
+  RiWindyLine,
 } from "@remixicon/react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
 const navigation = [
   { name: "Overview", href: siteConfig.baseLinks.overview, icon: RiHome2Line },
+  { name: "Air Quality", href: siteConfig.baseLinks.airQuality, icon: RiWindyLine },
   { name: "Details", href: siteConfig.baseLinks.details, icon: RiListCheck },
   {
     name: "Settings",
