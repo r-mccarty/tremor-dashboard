@@ -29,26 +29,6 @@ const formattingMap = {
     pressure: (value: number) => `${value} hPa`,
 }
 
-// Get color based on value range
-const getValueColor = (value: number, type: "level" | "temperature" | "percent" | "pressure") => {
-    if (type === "level") {
-        if (value < 600) return "success"
-        if (value < 800) return "neutral"
-        if (value < 1000) return "warning"
-        return "error"
-    }
-    if (type === "temperature") {
-        if (value < 19) return "warning"
-        if (value > 25) return "warning"
-        return "success"
-    }
-    if (type === "percent") {
-        if (value < 30) return "warning"
-        if (value > 60) return "warning"
-        return "success"
-    }
-    return "neutral" // Default for pressure
-}
 
 export const getBadgeType = (value: number) => {
     if (value > 0) {
