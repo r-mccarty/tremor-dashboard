@@ -9,6 +9,9 @@ const config: Config = {
       heading: ['var(--font-barlow)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
     },
     extend: {
+      gridTemplateColumns: {
+        '24': 'repeat(24, minmax(0, 1fr))',
+      },
       keyframes: {
         hide: {
           from: { opacity: "1" },

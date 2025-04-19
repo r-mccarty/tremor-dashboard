@@ -18,3 +18,14 @@ export type OverviewData = {
   "Sign outs": number
   "Support calls": number
 }
+
+export type AirQualityData = {
+  date: string
+  CO2: number
+  Temperature: number
+  Humidity: number
+  PM2_5: number
+  PM10: number
+  VOC: number
+  Pressure: number
+}
