@@ -47,6 +47,13 @@ const barlow = localFont({
   variable: "--font-barlow",
 })
 
+// Create a CSS class to enforce uppercase on the Barlow font
+const barlowUppercaseStyles = `
+  .font-heading, :root [style*="var(--font-barlow)"] {
+    text-transform: uppercase !important;
+  }
+`
+
 // Remember to replace placeholder values below
 export const metadata: Metadata = {
   metadataBase: new URL("https://yoururl.com"), // Replace with your actual URL
@@ -80,6 +87,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <style dangerouslySetInnerHTML={{ __html: barlowUppercaseStyles }} />
+      </head>
       {/* Using colfax.className is fine even if 'variable' is defined.
           If you prefer the variable approach, remove colfax.className here
           and set `font-family: var(--font-colfax)` in your globals.css */}
