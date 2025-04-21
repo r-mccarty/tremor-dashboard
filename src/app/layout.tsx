@@ -47,6 +47,23 @@ const barlow = localFont({
   variable: "--font-barlow",
 })
 
+const simplonbp = localFont({
+  src: [
+    {
+      path: '../fonts/simplonbp-regular-webfont.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../fonts/simplonbp-medium-webfont.woff2',
+      weight: '500',
+      style: 'normal',
+    },
+  ],
+  display: "swap",
+  variable: "--font-simplonbp",
+})
+
 // Create a CSS class to enforce uppercase on the Barlow font
 const barlowUppercaseStyles = `
   .font-heading, :root [style*="var(--font-barlow)"] {
@@ -94,7 +111,7 @@ export default function RootLayout({
           If you prefer the variable approach, remove colfax.className here
           and set `font-family: var(--font-colfax)` in your globals.css */}
       <body
-        className={`${colfax.className} ${barlow.variable} overflow-y-scroll scroll-auto antialiased selection:bg-indigo-100 selection:text-indigo-700 dark:bg-gray-950`}
+        className={`${colfax.className} ${barlow.variable} ${simplonbp.variable} overflow-y-scroll scroll-auto antialiased selection:bg-indigo-100 selection:text-indigo-700 dark:bg-gray-950`}
         suppressHydrationWarning // Good practice with next-themes
       >
         <div className="mx-auto max-w-screen-2xl">

@@ -17,6 +17,9 @@
   - Added Feature Flat font family files to the project
   - Added font files: FeatureFlatCond-Regular, FeatureFlatCond-Medium, FeatureFlatHeadline, and FeatureFlatText-Bold
   - Prepared for potential integration with the existing font system
+  - Added Simplon BP font family to the project
+  - Integrated Simplon BP fonts (regular and medium weights) into the Next.js font system
+  - Updated Tailwind configuration to make Simplon BP available via the `font-simplonbp` utility class
 - **UI Enhancement**:
   - Added a hero section with a globe visualization to the overview page
   - Installed the `cobe` library for the interactive globe component
@@ -30,14 +33,15 @@
 - Identify areas for potential enhancement or customization
 - Consider creating additional documentation for complex features
 - Evaluate how to integrate Feature Flat fonts into the application
-- Consider creating a typography system that leverages all available fonts
+- Consider creating a typography system that leverages all available fonts (Colfax, Barlow, Simplon BP)
 - Document best practices for font usage across different UI components
+- Test the Simplon BP font implementation across different components
 
 ## Active Decisions and Considerations
 - **Documentation Structure**: Organized Memory Bank files according to the specified hierarchy
 - **Content Detail Level**: Balanced between high-level overview and specific implementation details
 - **Project Understanding**: Based on available files and structure, without running the application yet
-- **Font System Strategy**: Added Feature Flat fonts to complement existing Colfax and Barlow fonts
+- **Font System Strategy**: Added Feature Flat and Simplon BP fonts to complement existing Colfax and Barlow fonts
 - **Typography Hierarchy**: Considering how to structure typography with multiple font families for different UI elements
 
 ## Important Patterns and Preferences
@@ -57,7 +61,7 @@
 - Data visualization is a key feature with Recharts integration
 - Table functionality enhanced with TanStack Table
 - Typography system leverages Next.js font optimization for performance
-- Multiple font families provide design flexibility for different UI contexts
+- Multiple font families (Colfax, Barlow, Simplon BP) provide design flexibility for different UI contexts
 - Font configuration in Tailwind enables consistent typography across components
 
 ## Current Questions
