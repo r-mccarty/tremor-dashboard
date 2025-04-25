@@ -1,15 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  redirects: async () => {
-    return [
-      {
-        source: "/",
-        destination: "/overview",
-        permanent: true,
-      },
-    ];
-  },
+  // Redirect removed to allow the root path to serve the new landing page
 };
 
 export default nextConfig;
