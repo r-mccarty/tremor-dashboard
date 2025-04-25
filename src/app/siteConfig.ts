@@ -11,6 +11,7 @@ export const siteConfig = {
       general: "/settings/general",
       billing: "/settings/billing",
       users: "/settings/users",
+      sensorConfig: "/settings/sensor-config",
     },
   },
 }

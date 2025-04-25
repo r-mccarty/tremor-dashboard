@@ -7,6 +7,7 @@ const config: Config = {
     fontFamily: {
       sans: ['var(--font-colfax)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       heading: ['var(--font-barlow)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      simplonbp: ['var(--font-simplonbp)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
     },
     extend: {
       gridTemplateColumns: {

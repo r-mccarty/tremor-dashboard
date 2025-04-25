@@ -9,6 +9,7 @@ const navigationSettings = [
   { name: "General", href: siteConfig.baseLinks.settings.general },
   { name: "Billing & Usage", href: siteConfig.baseLinks.settings.billing },
   { name: "Users", href: siteConfig.baseLinks.settings.users },
+  { name: "Sensor Configurations", href: siteConfig.baseLinks.settings.sensorConfig },
 ]
 
 export default function Layout({
@@ -19,7 +20,7 @@ export default function Layout({
   const pathname = usePathname()
   return (
     <div className="p-4 sm:px-6 sm:pb-10 sm:pt-10 lg:px-10 lg:pt-7">
-      <h1 className="text-lg font-semibold text-gray-900 sm:text-xl dark:text-gray-50">
+      <h1 className="text-lg font-medium text-gray-900 font-barlow uppercase sm:text-xl dark:text-gray-50">
         Settings
       </h1>
       <TabNavigation className="mt-4 sm:mt-6 lg:mt-10">

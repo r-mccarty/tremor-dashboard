@@ -17,6 +17,7 @@
 - **Colfax**: Primary sans-serif font (Regular 400, Medium 500)
 - **Barlow**: Heading font (Regular 400, Medium 500, Bold 700)
 - **Feature Flat**: Additional font family (Condensed Regular, Condensed Medium, Headline, Text Bold)
+- **Simplon BP**: Sans-serif font (Regular 400, Medium 500)
 
 ### UI Components
 - **Radix UI**: Headless UI components for accessibility

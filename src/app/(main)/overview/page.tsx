@@ -154,14 +154,14 @@ export default function Overview() {
 
   return (
     <>
-      {/*<HeroGlobe />
-      <HeroBento />*/}
+      {/*<HeroGlobe />*/}
+      {/*<HeroBento />*/}
       <FeatureBento />
 
       <section aria-labelledby="current-billing-cycle">
         <h1
           id="current-billing-cycle"
-          className="scroll-mt-10 text-lg tracking-normal font-semibold text-gray-900 sm:text-xl dark:text-gray-50 font-heading"
+          className="scroll-mt-10 text-lg tracking-normal font-simplonbp font-medium text-gray-900 sm:text-xl dark:text-gray-50 font-heading"
         >
           CURRENT BILLING CYCLE
         </h1>
